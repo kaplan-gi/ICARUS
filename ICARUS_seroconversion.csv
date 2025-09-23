@@ -1,0 +1,9 @@
+﻿region,BMI_category,total_sero,n_seroconvert,percent_seroconvert,total_max_RocheS,n_max_RocheS,percent_max_RocheS
+east,underweight,114,104,91.2,114,77,67.5
+east,healthy_weight,287,282,98.3,287,225,78.4
+east,overweight,127,123,96.9,127,107,84.3
+east,obese,79,76,96.2,79,58,73.4
+west,underweight,38,38,100,38,25,65.8
+west,healthy_weight,713,698,97.9,713,609,85.4
+west,overweight,521,514,98.7,521,457,87.7
+west,obese,254,252,99.2,254,224,88.2
