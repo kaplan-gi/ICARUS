@@ -1,4 +1,4 @@
-﻿time_period,vaccine_type,total_post_antiN,n_pos_antiN,percent_pos_antiN
+﻿time_period,vaccine_type,total_antiN,n_pos_antiN,percent_pos_antiN
 post1_14to112,mRNA,381,32,8.4
 post1_14to112,adenovirus,188,55,29.3
 post1_14to112,inactivated,18,11,61.1
