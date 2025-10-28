@@ -361,7 +361,7 @@ demographics_study2Server <- function(id) {
               "<br>%{x:.1f}% (n = %{customdata})",
               "<extra></extra>")) %>%
             layout(
-              title = "<b>Medication Exposure</b>",
+              title = "<b>Vaccine Type</b>",
               showlegend = FALSE,
               xaxis = list(title = "Percent of participants", 
                            ticksuffix = "%",

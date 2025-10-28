@@ -1,6 +1,6 @@
 # Title: COVID-19 Serology Multicentre Collaborative Shiny Application
 # Contributor: Lindsay Hracs, Julia Gorospe
-# Created: 2025-Jul-22
+# Created: 2025-Oct-28
 # Updated: 
 # R version 4.4.2 (2024-10-31)
 # Platform: Apple M4 (ARM64)
@@ -205,7 +205,7 @@ server <- function(input, output, session) {
         HTML(
           "<p>
           <b>About</b><br>
-          This interactive tool integrates pre-vaccination serosurveillance data from the STOP COVID-19 in IBD and ICARUS-IBD cohorts. Visual trends in SARS-CoV-2 anti-S and anti-N antibody levels in IBD populations from around the world are presented.<br><br>
+          This interactive tool integrates pre- and post-vaccination serosurveillance data from the STOP COVID-19 in IBD and ICARUS-IBD cohorts. Visual trends in SARS-CoV-2 anti-S and anti-N antibody levels in IBD populations from around the world are presented.<br><br>
         
           <b>How to Cite</b><br>
           Please cite the following publications to use figures or information found on this site:
