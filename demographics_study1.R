@@ -150,7 +150,7 @@ demographics_study1Server <- function(id) {
 
         output$map <- renderLeaflet({
           leaflet(options = leafletOptions(worldCopyJump = TRUE, preferCanvas = TRUE)) %>%
-              addProviderTiles("CartoDB.Positron") %>%
+              addProviderTiles("Esri.WorldGrayCanvas") %>%
               setView(lng = -5, lat = 40, zoom = 1.3) %>%
               addCircleMarkers(data = regData,
                                fillColor = "gray",

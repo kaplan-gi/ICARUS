@@ -95,7 +95,7 @@ map_study2Server <- function(id) {
   # map with markers
   output$map <- renderLeaflet({
     leaflet(options = leafletOptions(worldCopyJump = TRUE, minZoom = 2, preferCanvas = TRUE)) %>% 
-      addProviderTiles("CartoDB.Positron") %>% 
+      addProviderTiles("Esri.WorldGrayCanvas") %>% 
       setView(lng = 5, lat = 25, zoom = 2) %>% 
       addPolygons(
         data = mergedStudy2,
